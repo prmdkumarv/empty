@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blinking Heading</title>
+    <style>
+      /* Define the blinking animation */
+      @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      /* Apply the animation to the h1 element */
+      h1 {
+        animation: blink 1s infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is index file bruhhh</h1>
+  </body>
+</html>
